@@ -1,0 +1,146 @@
+/* ===== Navbar Styling ===== */
+.navbar {
+    background-color: #0f0f0f !important;
+    padding: 15px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand {
+    color: #e50914 !important;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+    color: #ff1f2d !important;
+}
+
+.nav-link {
+    color: #ccc !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #e50914 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* ===== Search Bar ===== */
+form .form-control {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: white;
+}
+
+form .form-control:focus {
+    background-color: #1e1e1e;
+    color: white;
+    border-color: #e50914;
+    box-shadow: 0 0 8px rgba(229, 9, 20, 0.6);
+}
+
+form .btn {
+    background-color: #e50914;
+    border: none;
+    color: white;
+}
+
+form .btn:hover {
+    background-color: #ff1f2d;
+}
+
+/* ===== Global Theme ===== */
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== Container spacing ===== */
+.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* ===== Card Styling ===== */
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+}
+
+/* ===== Image Styling ===== */
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ===== Card Body ===== */
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.card small {
+    color: #aaa;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #ccc;
+    height: 60px;
+    overflow: hidden;
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+    background: #e50914;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #ff1f2d;
+}
+
+.btn-danger {
+    background: #333;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #555;
+}
+
+/* ===== Scrollbar Styling ===== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e50914;
+    border-radius: 10px;
+}

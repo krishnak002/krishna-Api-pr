@@ -19,15 +19,12 @@ const handleDisplay = async () => {
     if (data.cod === "404") {
         alert("City not found");
     }
-
-        cityElement.textContent = data.name;
-        temp.textContent = data.main.temp + "°C";
-        description.textContent = data.weather[0].description;
+        cityElement.textContent ="City :" + data.name;
+        temp.textContent ="Temperature: " + data.main.temp + "°C";
+        description.textContent = "Description: " + data.weather[0].description;
 
     } catch (error) {
         console.log(error);
     }
 
 }
-
-
